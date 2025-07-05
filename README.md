@@ -7,6 +7,8 @@ Team Execthron
 Project Title:  AI-Powered Network Threat Analyzer 
 
 AI-Powered Traffic Classification Model – A system that categorizes network traffic (e.g., APP ID detection) based on behavior and patterns.
+
+Demo Video: https://drive.google.com/file/d/1SIK_kruyaB2uLdFsY7iY5bJJZ7SaKgWz/view?usp=drivesdk
  
 Overview:
 A machine learning-based system to detect and classify malicious network traffic in real time. It uses flow-level features and a Random Forest model, deployed via a lightweight Flask web app.
