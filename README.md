@@ -4,7 +4,7 @@ INTEL UNNATI INDUSTRIAL TRAINING 2025
       
 Team Execthron
 
-Project Title:  AI-Powered Network Threat Analyzer 
+Project Title:  AI-Powered Threat Classification Model
 
 AI-Powered Traffic Classification Model – A system that categorizes network traffic (e.g., APP ID detection) based on behavior and patterns.
 
