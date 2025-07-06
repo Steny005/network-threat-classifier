@@ -65,7 +65,7 @@ Includes:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Vasu-uu/Network-Threat-Analyzer.git
+git clone[ https://github.com/Steny005/network-threat-classifier.git ]
 cd Network-Threat-Analyzer
 ```
 
