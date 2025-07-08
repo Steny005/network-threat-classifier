@@ -1,87 +1,115 @@
-# 🛡️ AI-Powered Network Threat Classification System
+# AI-Powered Network Threat Classification System
 
 **Intel Unnati Industrial Training 2025**  
 **Problem Statement 1: Network Security**  
-**Team Name: Execthron**
-
-
----
-
-## 🎥 Demo
-
-▶️ [Watch Demo Video]( https://drive.google.com/file/d/1SIK_kruyaB2uLdFsY7iY5bJJZ7SaKgWz/view?usp=drivesdk
-)
+**Team: Execthron**
 
 ---
 
-## 📌 Project Overview
+## Demo Video
 
-The **AI-Powered Traffic Classification Model** is a real-time intelligent system designed to detect and classify network traffic as **malicious** or **safe** using flow-level features.
-
-Built with a **Random Forest machine learning model**, the system is deployed via a simple and efficient **Flask web interface**. It supports `.csv` file uploads, analyzes the data, and visualizes the results instantly.
+ [Watch Demo Video](https://drive.google.com/file/d/1SIK_kruyaB2uLdFsY7iY5bJJZ7SaKgWz/view?usp=drivesdk)
 
 ---
 
-## 💡 Key Features
+##  Project Overview
 
-* 🔍 Real-time classification of uploaded `.csv` traffic logs
-* 🧠 AI-powered Random Forest model trained on UNSW-NB15
-* 📈 Visualization with **Chart.js** (pie chart: malicious vs. safe)
-* 🌐 Flask-based web interface for ease of use
-* 🧾 Display of predicted traffic labels with protocol and classification only (e.g., Safe/Malicious)
+This project introduces a smart traffic classification system that analyzes network flow data and flags it as either **Safe** or **Malicious**.
+
+Using a **Random Forest** model trained on the **UNSW-NB15 dataset**, it’s deployed with a simple **Flask-based web interface** where users can upload `.csv` files and view results instantly through a clean visualization.
 
 ---
 
-## 📚 Dataset Used
+##  Key Features
+
+-  Classifies uploaded `.csv` network traffic logs in real-time.
+-  Built on a trained Random Forest model.  
+-  Uses **Chart.js** to display safe vs. malicious traffic visually. 
+-  Flask web interface for easy user interaction. 
+-  Results include only essential fields like protocol and prediction (Safe/Malicious).
+
+---
+
+## Dataset Used
 
 **UNSW-NB15** – A labeled dataset containing both normal and malicious network traffic.
 
-Includes:
+Included attack types:
 
-* DoS
-* Exploits (including SQL Injection, XSS, Buffer Overflow, Shellcode, etc.)
-* Fuzzers
-* Reconnaissance
-* Analysis
-* Backdoors
+- DoS
+- Exploits  (including SQL Injection, XSS, Buffer Overflow, Shellcode, etc.)
+- Fuzzers
+- Reconnaissance
+- Backdoors
+- Analysis
 
-> 📌 Provided by: Australian Centre for Cyber Security (ACCS)
-
----
-
-## 🧰 Tech Stack
-
-| Layer        | Technologies                        |
-| ------------ | ----------------------------------- |
-| Language     | Python                              |
-| Backend      | Flask, Flask-CORS                   |
-| ML Libraries | Scikit-learn, Joblib, Pandas, NumPy |
-| Frontend     | HTML, CSS, JavaScript, Chart.js     |
+> Source: [Australian Centre for Cyber Security (ACCS)](https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-NB15-Datasets/)
 
 ---
 
-## ⚙️ Installation Guide
+##  Tech Stack
 
-### 1️⃣ Clone the Repository
+| Layer        | Tools & Libraries                    |
+| ------------ | ------------------------------------ |
+| Language     | Python                               |
+| Backend      | Flask, Flask-CORS                    |
+| ML Libraries | Scikit-learn, Pandas, NumPy, Joblib  |
+| Frontend     | HTML, CSS, JavaScript, Chart.js      |
+
+---
+
+## Outcomes
+
+- Achieved **accurate classification** of malicious vs. safe traffic using a Random Forest model.
+- Designed a **user-friendly interface** for uploading and analyzing `.csv` network logs.
+- Successfully integrated **real-time visualization** of predictions using Chart.js.
+- Demonstrated the practicality of ML models in supporting **automated network threat detection** in a lightweight environment.
+
+
+---
+
+## Limitations
+
+- The model is trained only on **offline flow data** and does not process **live packet capture**. 
+- Limited to `.csv` files with specific feature formatting; **data preprocessing must match training setup**.  
+- Accuracy might vary on real-world enterprise traffic.
+- No in-depth metadata like IP addresses, ports, or timestamps included.
+
+---
+
+##  Future Improvements
+
+- Add support for real-time packet analysis using tools like **Scapy** or **PyShark**. 
+- Include detailed traffic analytics with full metadata.
+- Set up alerting systems (email, Telegram) for high-severity threats. 
+- Explore deep learning models (e.g., LSTM, CNN) for better accuracy. 
+- Deploy the app on the cloud and integrate with SIEM tools.
+
+---
+
+
+##  Installation Guide
+
+### Clone the Repository
 
 ```bash
-git clone[ https://github.com/Steny005/network-threat-classifier.git ]
+git clone https://github.com/Vasu-uu/Network-Threat-Analyzer.git
 cd Network-Threat-Analyzer
 ```
 
-### 2️⃣ Install Python Packages
+### Install Python Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Application
+### Run the Application
 
 ```bash
 python app.py
 ```
 
-### 4️⃣ Open the App
+### Open the App
 
 Visit in your browser:
 [http://127.0.0.1:5000](http://127.0.0.1:5000)
@@ -90,21 +118,21 @@ Visit in your browser:
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 * **Steny Thankkam Raju**
 * **Vasudev V**
 * **Jalphy Reji**
 
-> ✅ *Submitted as part of Intel Unnati Industrial Training 2025 – Team Execthron*
+> *Submitted as part of Intel Unnati Industrial Training 2025 – Team Execthron*
 
 ---
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * Intel Unnati Industrial Training Team
-* Australian Centre for Cyber Security – UNSW-NB15 Dataset
+* Australian Centre for Cyber Security - UNSW-NB15 Dataset
 
----
+--- 
