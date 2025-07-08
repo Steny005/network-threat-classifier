@@ -10,6 +10,7 @@
 
  [Watch Demo Video](https://drive.google.com/file/d/1SIK_kruyaB2uLdFsY7iY5bJJZ7SaKgWz/view?usp=drivesdk)
 
+
 ---
 
 ##  Project Overview
@@ -93,7 +94,7 @@ Included attack types:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Vasu-uu/Network-Threat-Analyzer.git
+git clone [https://github.com/Steny005/network-threat-classifier.git]
 cd Network-Threat-Analyzer
 ```
 
